@@ -26,6 +26,7 @@ def isitaninteger(numero):
 
 
 def main():
+    print("Hello learners!")   
     # Ciclo que mantiene activo el menu hasta que el usuario decida salir.
     while True:
         print("\n CALCULADORA")
