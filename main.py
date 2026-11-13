@@ -28,13 +28,13 @@ def isitaninteger(numero):
 def main():
     # Ciclo que mantiene activo el menu hasta que el usuario decida salir.
     while True:
-        print("\n========== CALCULADORA ==========")
+        print("\n CALCULADORA")
         print("1. Sumar varios números")
         print("2. Multiplicar varios números")
         print("3. Comprobar si un número es par")
         print("4. Comprobar si un número es entero")
         print("5. Salir")
-        print("=================================")
+        
 
         opcion = input("Selecciona una opción: ")
 
@@ -70,7 +70,7 @@ def main():
             break
 
         else:
-            print("Opción no válida. Inténtalo nuevamente.")
+            print("Aprenda a escribir")
 
 
 if __name__ == "__main__":
